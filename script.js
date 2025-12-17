@@ -40,7 +40,7 @@ function convertNames() {
     const realA = document.getElementById('realName1').value.trim();
     const realB = document.getElementById('realName2').value.trim();
 
-    if (!realA || !realB) { alert("백업 이름을 입력해주세요."); return; }
+    if (!realA || !realB) { alert("백업 이름을 입력해 주세요."); return; }
 
     const regA = new RegExp(rawA.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g');
     const regB = new RegExp(rawB.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g');
