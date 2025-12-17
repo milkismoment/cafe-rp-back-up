@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAFE RP BACK-UP (Mobile Optimized)</title>
+    <title>CAFE RP BACK-UP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,29 +17,29 @@
                 <div class="section-header"><span class="dot pink"></span><h2>캐릭터 설정</h2></div>
                 <div class="config-grid">
                     <div class="char-box">
-                        <input type="text" id="rawName1" placeholder="인식 이름">
-                        <input type="text" id="realName1" placeholder="백업 이름">
+                        <input type="text" id="rawName1" placeholder="인식 이름(이몽룡 24)">
+                        <input type="text" id="realName1" placeholder="백업 이름(이몽룡)">
                         <input type="text" id="img1" placeholder="이미지 URL">
                     </div>
                     <div class="char-box">
-                        <input type="text" id="rawName2" placeholder="인식 이름">
-                        <input type="text" id="realName2" placeholder="백업 이름">
+                        <input type="text" id="rawName2" placeholder="인식 이름(성춘향 27)">
+                        <input type="text" id="realName2" placeholder="백업 이름(성춘향)">
                         <input type="text" id="img2" placeholder="이미지 URL">
                     </div>
                 </div>
                 <div class="section-header"><span class="dot pink"></span><h2>대화 입력</h2></div>
-                <textarea id="dialogueInput" placeholder="대화를 붙여넣으세요."></textarea>
+                <textarea id="dialogueInput" placeholder="역극을 입력하세요."></textarea>
                 <div class="button-group">
-                    <button id="btnDialogue" class="btn btn-black">ⓐ 정리</button>
-                    <button id="btnConvert" class="btn btn-black">ⓑ 치환</button>
-                    <button id="btnHtml" class="btn btn-pink">ⓒ 변환</button>
+                    <button id="btnDialogue" class="btn btn-black">ⓐ dialogue</button>
+                    <button id="btnConvert" class="btn btn-black">ⓑ convert</button>
+                    <button id="btnHtml" class="btn btn-pink">ⓒ html 변환</button>
                 </div>
             </section>
 
             <section class="panel">
-                <div class="section-header"><span class="dot black"></span><h2>미리보기</h2></div>
+                <div class="section-header"><span class="dot black"></span><h2>미리 보기</h2></div>
                 <div id="previewOutput" class="preview-box"></div>
-                <div class="section-header"><span class="dot black"></span><h2>결과 코드</h2></div>
+                <div class="section-header"><span class="dot black"></span><h2>HTML 소스 코드</h2></div>
                 <div class="code-area">
                     <textarea id="htmlCodeOutput" readonly placeholder="코드가 생성됩니다."></textarea>
                     <button id="copyButton" class="btn small-btn">결과 코드 복사하기</button>
